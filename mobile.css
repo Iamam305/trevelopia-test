@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1200px) {
+
+  .nav-links {
+    position: absolute;
+    width: 100%;
+    min-height: 90vh;
+    background: #000;
+    z-index: 99;
+    justify-content: space-around;
+    right: -1000px;
+    display: flex;
+   top: 0px;
+  }
+
+
+  .hamburger{
+    width: 40px;
+    position: relative;
+    z-index: 999;
+    display: block;
+  }
+  .hamburger span{
+    display: block;
+    margin: 5px;
+    width: 40px;
+    /* padding: 2px; */
+    height: 3px;
+    background-color: #fff;
+  }
+
+  /* the checkbox used only internally; don't display it */
+ 
+
+  #toggle-ham:checked ~ .nav-links{
+    right: 0px;
+  }
+
+ 
+  .nav-link-item {
+    margin: 10px;
+  }
+
+
+  .hero-text{
+    width: 100%;
+    padding: 20px;
+  }
+  .hero-text h3{
+    font-size: 1.2rem;
+  }
+  .hero-text h2{
+    font-size: 3.2rem;
+  }
+
+  .footer{
+    padding: 50px;
+  }
+
+  .footer-text{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.footer p{
+    margin-top: 20px;
+   
+}
+
+.footer-links{
+    display: inline;
+}
+}

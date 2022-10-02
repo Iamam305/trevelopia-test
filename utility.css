@@ -1,0 +1,34 @@
+.flex{
+    display: flex;
+}
+
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1200px){
+    .flex-col-mobile{
+    flex-direction: column;
+
+}
+    
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justity-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+
+
+.max-width-screen{
+    max-width: 100vw;
+}
